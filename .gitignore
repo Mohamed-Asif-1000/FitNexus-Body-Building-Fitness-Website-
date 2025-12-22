@@ -1,0 +1,6 @@
+node_modules/
+.env
+output.css
+main.d.ts
+main.d.ts.map
+main.js.map

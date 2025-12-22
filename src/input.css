@@ -1,0 +1,165 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Russo+One&display=swap');
+
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fade-In Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease;
+  transition-delay: var(--delay);
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Add delay  */
+.fade-in[data-delay] {
+  transition-delay: var(--delay, 0s);
+}
+
+.fade-in.visible[data-delay] {
+  transition-delay: attr(data-delay);
+}
+
+/*  Parallax Background  */
+.parallax {
+  background-size: cover;
+  background-position: center;
+  will-change: transform;
+  background-attachment: scroll;
+}
+
+/*  Buttons  */
+button {
+  background: linear-gradient(90deg, #06b6d4, #f97316);
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #f97316, #06b6d4);
+  color: black;
+  transform: scale(1.05);
+}
+
+/* Scroll-to-Top Button  */
+#scrollTopBtn {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.show-btn {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Achievements Scroll  */
+.achievements-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 24px;
+  padding: 16px;
+  scroll-behavior: smooth;
+}
+
+.achievements-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.achievements-scroll > div {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+  background-color: #111827; 
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.achievements-scroll > div:hover {
+  transform: translateY(-6px) scale(1.03);
+}
+
+/*  Testimonials Section */
+/* Container holds all review cards horizontally */
+.reviews-container {
+  display: flex; 
+  gap: 30px; 
+  width: max-content;
+  transition: transform 0.3s ease;
+}
+
+/* Each review card */
+.reviews-card {
+  flex: 0 0 340px; 
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease;
+}
+
+/* Hover effect */
+.reviews-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+}
+
+/* Responsiveness for the Reviews Section */
+@media (max-width: 768px) {
+  .reviews-container {
+    flex-direction: row !important; 
+    flex-wrap: nowrap !important;  
+  }
+
+  .reviews-card {
+    flex: 0 0 85vw !important;    
+    margin-bottom: 0;      
+  }
+}
+@media (max-width: 1024px) {
+  .reviews-carousel {
+    max-width: 340px; 
+    margin: 0 auto;   
+  }
+  .reviews-container {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 30px !important;
+  }
+  
+  .reviews-card {
+    width: 340px !important; 
+    flex: 0 0 340px !important;
+    margin: 0 !important;
+  }
+}
+@media (max-width: 640px) {
+  .reviews-carousel {
+    max-width: 85vw; 
+  }
+
+  .reviews-card {
+    width: 85vw !important;
+    flex: 0 0 85vw !important;
+  }
+}
+/* Modal Success Message centering fix */
+#successModal.flex {
+  display: flex;
+}
