@@ -73,9 +73,10 @@ FitNexus/
 │   └── main.ts         # TypeScript logic for slider, modal, and scroll effects
 ├── build/
 │   ├── output.css      # Compiled production-ready CSS
-|   ├── index.html      # Main layout and section definitions
 |   ├── images/         # Gym equipment, trainer profiles, background and all other images are in this folder
-└── README.md           # Project documentation (this file)
+├── README.md           # Project documentation (this file)
+└── index.html      # Main layout and section definitions
+
 
 ---
 
@@ -124,9 +125,11 @@ npm install
 
 ## 🔄 Responsive Design
 
--**📱 Mobile (≤640px):**- Single-column layouts and full-width testimonial cards.
--**📟 Tablets (640px-1024px):**- Hamburger menu remains active; adjusted carousel spacing to hide peeking cards.
--**💻 Desktop (>1024px):**- Full horizontal navigation and multi-column layouts for trainers and plans.
+-**📱 Mobile (≤640px):**-  Single-column layouts and full-width testimonial cards.
+
+-**📟 Tablets (640px-1024px):**-  Hamburger menu remains active; adjusted carousel spacing to hide peeking cards.
+
+-**💻 Desktop (>1024px):**-  Full horizontal navigation and multi-column layouts for trainers and plans.
 
 ---
 
@@ -135,7 +138,7 @@ npm install
 
 You can view the live version of the website here:  
 
-👉 []()
+👉 [https://mohamed-asif-1000.github.io/FitNexus-Body-Building-Fitness-Website-/](https://mohamed-asif-1000.github.io/FitNexus-Body-Building-Fitness-Website-/)
 
 ---
 
