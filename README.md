@@ -66,6 +66,8 @@ Ideal for:
 
 ## 📂 Folder Structure
 
+---
+
 FitNexus/
 │
 ├── src/
@@ -115,26 +117,28 @@ npm install
 
 ## 🧠 How to Use
 
-- 1️⃣ **Explore Training** - Scroll through the About and Trainer sections to see the team and mission
-- 2️⃣ **View Plans** - Navigate to the Plans section to compare membership tiers
-- 3️⃣ **Read Reviews** - Let the automated testimonial slider show you member feedback
-- 4️⃣ **Get in Touch** - Fill out the contact form to trigger the successful message popup
-- 5️⃣ **Quick Return** - Use the "Scroll to Top" button to jump back to the navigation bar
+-  1️⃣  **Explore Training** - Scroll through the About and Trainer sections to see the team and mission
+-  2️⃣  **View Plans** - Navigate to the Plans section to compare membership tiers
+-  3️⃣  **Read Reviews** - Let the automated testimonial slider show you member feedback
+-  4️⃣  **Get in Touch** - Fill out the contact form to trigger the successful message popup
+-  5️⃣  **Quick Return** - Use the "Scroll to Top" button to jump back to the navigation bar
 
 ---
 
 ## 🔄 Responsive Design
 
+---
+
 -**📱 Mobile (≤640px):**-  Single-column layouts and full-width testimonial cards.
-
 -**📟 Tablets (640px-1024px):**-  Hamburger menu remains active; adjusted carousel spacing to hide peeking cards.
-
 -**💻 Desktop (>1024px):**-  Full horizontal navigation and multi-column layouts for trainers and plans.
 
 ---
 
 
 ## 🌍 Live Demo
+
+---
 
 You can view the live version of the website here:  
 
@@ -143,6 +147,8 @@ You can view the live version of the website here:
 ---
 
 ## 📝 License
+
+---
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
