@@ -68,10 +68,6 @@ Ideal for:
 
 ---
 
-## 📂 Project Structure
-
----
-
 ```text
 FitNexus/
 ├── build/                # Production-ready files (Compiled)
@@ -88,6 +84,9 @@ FitNexus/
 
 ---
 
+## 📂 Project Structure
+
+---
 
 ## 🚀 Getting Started
 
