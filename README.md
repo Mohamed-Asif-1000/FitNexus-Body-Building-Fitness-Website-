@@ -132,9 +132,11 @@ npm install
 
 ---
 
--**📱 Mobile (≤640px):**-  Single-column layouts and full-width testimonial cards.
--**📟 Tablets (640px-1024px):**-  Hamburger menu remains active; adjusted carousel spacing to hide peeking cards.
--**💻 Desktop (>1024px):**-  Full horizontal navigation and multi-column layouts for trainers and plans.
+- **📱 Mobile (≤640px):**-  Single-column layouts and full-width testimonial cards.
+
+- **📟 Tablets (640px-1024px):**-  Hamburger menu remains active; adjusted carousel spacing to hide peeking cards.
+
+- **💻 Desktop (>1024px):**-  Full horizontal navigation and multi-column layouts for trainers and plans.
 
 ---
 
