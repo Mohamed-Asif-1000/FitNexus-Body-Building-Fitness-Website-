@@ -66,8 +66,6 @@ Ideal for:
 
 ## 📂 Folder Structure
 
----
-
 ```text
 FitNexus/
 ├── build/                # Production-ready files (Compiled)
@@ -84,10 +82,8 @@ FitNexus/
 
 ---
 
-## 📂 Project Structure
 
----
-
+```
 ## 🚀 Getting Started
 
 To run this project locally:
@@ -118,7 +114,9 @@ npm install
 ```
 4.  Open index.html in your browser.
 
+
 ---
+
 
 ## 🧠 How to Use
 
